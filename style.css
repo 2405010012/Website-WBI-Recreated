@@ -1,0 +1,334 @@
+.top-bar {
+      background-color: #0b0725;
+      color: white;
+      font-size: 0.9rem;
+      padding: 0.3rem 0;
+    }
+    .logo-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+    }
+    .nav-link.active {
+      color: #831d33 !important;
+    }
+    .navbar-nav .nav-link {
+      color: #000;
+    }
+    .navbar-nav .dropdown-menu {
+      font-size: 0.9rem;
+    }
+    .icon-link i {
+      margin-left: 0.5rem;
+    }
+    .scrolling-bar {
+      background-color: #FF6F3C;
+      color: white;
+      padding: 0.5rem 0;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+    }
+    .scrolling-content {
+      display: inline-block;
+      animation: scrollText 20s linear infinite;
+    }
+    @keyframes scrollText {
+      from { transform: translateX(100%); }
+      to { transform: translateX(-100%); }
+    }
+    .scrolling-item {
+      display: inline-block;
+      margin-right: 2rem;
+      font-weight: bold;
+    }
+    .scrolling-item::after {
+      margin-left: 1rem;
+      color: #fff;
+    }
+    .carousel-item {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .carousel-caption {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      color: white;
+    }
+    .carousel-caption h2 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+    .carousel-caption .btn {
+      margin-top: 1rem;
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-image: url('https://img.freepik.com/free-vector/abstract-elegant-geometric-shape-background-design_1017-50120.jpg?semt=ais_hybrid&w=740');
+    }
+    .section-heading {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #1f1235;
+    }
+    .section-subheading {
+      color: #FF6F3C;
+      font-weight: 600;
+    }
+    .rounded-image {
+      border-radius: 1rem;
+      width: 100%;
+      height: auto;
+    }
+     .program-card {
+      position: relative;
+      color: white;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .program-card-title {
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+      font-size: 1.25rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+    .news-card {
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      background: white;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    .news-card:hover {
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+    .news-card img {
+      border-radius: 12px 0 0 12px;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .news-meta {
+      font-size: 0.875rem;
+      color: gray;
+    }
+    .news-title {
+      font-weight: bold;
+      font-size: 1.125rem;
+      color: #1a1a2e;
+    }
+    .news-link {
+      text-decoration: none;
+      color: #990000;
+      font-weight: 500;
+    }
+    .news-link:hover {
+      text-decoration: underline;
+    }
+    .plugins-section {
+      background-image: url('https://medanreview.com/medanreview/media/8i2h3g3q4e2768841595122563.jpg'); /* Ganti URL ini dengan latar kamu */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 80px 20px;
+      color: white;
+    }
+    .plugin-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      height: 100%;
+    }
+    .plugin-card img {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 10px;
+    }
+    .plugin-title {
+      font-size: 0.95rem;
+      color: #111;
+    }
+    .section-label {
+      font-size: 0.8rem;
+      background-color: rgba(255, 255, 255, 0.15);
+      border: 1px solid white;
+      padding: 4px 10px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .section-heading {
+    border-left: 4px solid #007b3e; /* warna hijau */
+    padding-left: 12px;
+    font-weight: bold;
+    }
+     .stat-box {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .stat-icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #1f2b6c;
+    }
+    .stat-number {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .stat-label {
+      color: #6c757d;
+    }
+    .divider {
+      border-left: 1px solid #ccc;
+      height: 100%;
+    }
+    .department-card {
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      overflow: hidden;
+      background-color: #fff;
+      transition: box-shadow 0.3s ease;
+    }
+    .department-card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .department-card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+    .department-content {
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .department-title {
+      font-weight: bold;
+      color: #1f2b6c;
+      margin: 0;
+    }
+    .arrow-icon {
+      font-size: 20px;
+      border: 1px solid #1f2b6c;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #1f2b6c;
+      text-decoration: none;
+    }
+    .program-box {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+      height: 100%;
+    }
+    .program-box:hover {
+      transform: translateY(-5px);
+    }
+    .program-title {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .program-level {
+      color: #777;
+      font-size: 14px;
+    }
+    .dropdowns {
+      margin-bottom: 30px;
+    }
+    .profile-card {
+      background-color: #fff;
+      border: 1px solid #78B9B5;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    .profile-img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .profile-name {
+      font-weight: bold;
+      color: #0c7c59;
+    }
+    .profile-title {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .btn-profile {
+      background-color: #00883c;
+      color: white;
+      border: none;
+    }
+    .btn-profile:hover {
+      background-color: #007235;
+    }
+    .facility-card {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      transition: transform 0.2s;
+    }
+    .facility-card:hover {
+      transform: scale(1.02);
+    }
+    .facility-label {
+      padding: 12px;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+    }
+    .label-green {
+      background-color: #007b3e;
+    }
+    .label-yellow {
+      background-color: #f1c40f;
+      color: black;
+    }
+    .card img {
+      height: 180px;
+      object-fit: cover;
+    }
+    .badge-position {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    .bg-lightgreen {
+      background-color: #e6f0eb;
+    }
+    .profile-img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .section-title {
+      font-weight: bold;
+      color: #198754;
+    }
